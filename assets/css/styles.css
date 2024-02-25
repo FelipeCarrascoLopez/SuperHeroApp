@@ -1,0 +1,50 @@
+        /* Estilo para centrar la imagen horizontalmente */
+        .centrar-imagen {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .centrar-imagen {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        /* Estilos para la sección de contenido */
+        #contenido {
+            margin-top: 50px; /* Añade un espacio en la parte superior */
+        }
+
+        /* Estilos para la sección de información del superhéroe */
+        .info-section {
+            background-color: #f0f0f0; /* Color de fondo */
+            padding: 20px; /* Espaciado interno */
+            border-radius: 5px; /* Bordes redondeados */
+            margin-bottom: 20px; /* Espacio inferior */
+        }
+
+        /* Estilos para la sección del gráfico circular */
+        .chart-section {
+            background-color: #ffffff; /* Color de fondo */
+            padding: 20px; /* Espaciado interno */
+            border: 1px solid #ddd; /* Borde delgado */
+            border-radius: 5px; /* Bordes redondeados */
+        }
+
+        #chartContainer {
+            margin-top: 50px; /* Añade un espacio en la parte superior */
+        }
+
+        .img-hero {
+            max-width: 300px; /* Puedes ajustar este valor según lo necesites */
+            height: auto;
+            margin: 0 auto; /* Esto centrará horizontalmente la imagen */
+            border-radius: 5px; /* Bordes redondeados */
+        }
+        
+        
