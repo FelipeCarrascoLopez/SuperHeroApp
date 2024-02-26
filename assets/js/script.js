@@ -6,6 +6,17 @@ $(document).ready(function() {
         $('#contenido').hide();
 
         const superheroName = $('#busqueda').val();
+        
+        // Expresión regular para verificar si solo contiene dígitos
+        const regex = /^[0-9]+$/;
+
+        // Verificar si el valor ingresado es solo numérico
+        if (!regex.test(superheroName)) {
+            // Mostrar una alerta si el valor no es numérico
+            alert('Por favor, ingresa solo números para el nombre de Superhéroe.');
+            // Prevenir que el formulario se envíe
+            event.preventDefault();
+        }
         const url = 'https://www.superheroapi.com/api/7168580893228090/';
         const corsProxyUrl = 'https://cors-anywhere.herokuapp.com/';
         const apiUrl = `${url}${superheroName}`;
